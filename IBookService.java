@@ -28,7 +28,7 @@ public interface IBookService {
     //foreach
     List<Book> listByForeach(BookDto bookDto);
 
-    //模糊查询
+    //模糊查
     List<Book> listByLike(Book book);
 
     List<Book> listByResultMap();
